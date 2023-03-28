@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnBukaSatu"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Buka ListView" />
+            <Button
+                android:layout_marginLeft="30dp"
+                android:id="@+id/btnBukaDua"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Buka Tugas RecylerView" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnBukaTiga"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Buka Tugas Fragment" />
+            <Button
+                android:layout_marginLeft="30dp"
+                android:id="@+id/btnBukaEmpat"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Buka Intent Explicit" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnBukaLima"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Buka Intent Implicit" />
+            <Button
+                android:layout_marginLeft="30dp"
+                android:id="@+id/btnBukaEnam"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Buka Tugas Submit" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnBukaTujuh"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Buka Camera
+" />
+            <Button
+                android:id="@+id/btnBukaDelapan"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Buka SQL Lite
+" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
